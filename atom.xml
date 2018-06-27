@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-27T04:04:54.920Z</updated>
+  <updated>2018-06-27T04:48:06.479Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>知了说</title>
+    <link href="http://yoursite.com/2018/06/27/%E7%9F%A5%E4%BA%86%E8%AF%B4/"/>
+    <id>http://yoursite.com/2018/06/27/知了说/</id>
+    <published>2018-06-27T04:39:58.000Z</published>
+    <updated>2018-06-27T04:48:06.479Z</updated>
+    
+    <content type="html"><![CDATA[<p>太阳，太阳，你快躲到云里去。</p><p>云彩，云彩，你快点多一些。</p><p>叶儿，叶儿，你怎么也疲倦了？</p><p>快点展开为我遮阳挡晒。</p><p>风儿，风儿，你怎么也走的慢？</p><p>跑起来，让我感觉你的存在。</p><p>身披防晒服防晒，还是脱下更凉快！</p><p><img src="/2018/06/27/知了说/20180627_1.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;太阳，太阳，你快躲到云里去。&lt;/p&gt;
+&lt;p&gt;云彩，云彩，你快点多一些。&lt;/p&gt;
+&lt;p&gt;叶儿，叶儿，你怎么也疲倦了？&lt;/p&gt;
+&lt;p&gt;快点展开为我遮阳挡晒。&lt;/p&gt;
+&lt;p&gt;风儿，风儿，你怎么也走的慢？&lt;/p&gt;
+&lt;p&gt;跑起来，让我感觉你的存在。&lt;/p&gt;
+&lt;p&gt;身披防晒服防晒，还是
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>“hexo 设置摘要信息</title>
