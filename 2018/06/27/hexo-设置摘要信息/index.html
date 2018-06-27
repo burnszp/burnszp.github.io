@@ -81,17 +81,17 @@
 
 
 
-<meta name="description" content="如何在静态博客hexo中只显示摘要信息默认情况下hexo博客(如本站)的首页显示的是完整的文章 – 而文章比较长的时候这无疑会带来诸多不遍。 那怎么样才能只显示个摘要呢？ 方法说白了，其实很简单 – 只要加入一个&amp;lt;!-- more --&amp;gt;这样的占位符在文章正文里面即可： 注意：这个占位符貌似只能另起一行，不能放在行内。">
+<meta name="description" content="如何在静态博客hexo中只显示摘要信息 在文章中使用&amp;lt; !--more--&amp;gt; 手动进行截断 这种方法可以根据文章的内容，自己在合适的位置添加 &amp;lt; !--more--&amp;gt; 标签，使用灵活，也是Hexo推荐的方法。   在文章中的front-matter中添加description，并提供文章摘录 这种方式只会在首页列表中显示文章的摘要内容，进入文章详情后不会再显示。   自动形">
 <meta property="og:type" content="article">
 <meta property="og:title" content="“hexo 设置摘要信息">
 <meta property="og:url" content="http://yoursite.com/2018/06/27/hexo-设置摘要信息/index.html">
 <meta property="og:site_name" content="众阅乐-（爱的太息の博客）">
-<meta property="og:description" content="如何在静态博客hexo中只显示摘要信息默认情况下hexo博客(如本站)的首页显示的是完整的文章 – 而文章比较长的时候这无疑会带来诸多不遍。 那怎么样才能只显示个摘要呢？ 方法说白了，其实很简单 – 只要加入一个&amp;lt;!-- more --&amp;gt;这样的占位符在文章正文里面即可： 注意：这个占位符貌似只能另起一行，不能放在行内。">
+<meta property="og:description" content="如何在静态博客hexo中只显示摘要信息 在文章中使用&amp;lt; !--more--&amp;gt; 手动进行截断 这种方法可以根据文章的内容，自己在合适的位置添加 &amp;lt; !--more--&amp;gt; 标签，使用灵活，也是Hexo推荐的方法。   在文章中的front-matter中添加description，并提供文章摘录 这种方式只会在首页列表中显示文章的摘要内容，进入文章详情后不会再显示。   自动形">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-27T04:04:54.920Z">
+<meta property="og:updated_time" content="2018-06-27T09:36:15.445Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="“hexo 设置摘要信息">
-<meta name="twitter:description" content="如何在静态博客hexo中只显示摘要信息默认情况下hexo博客(如本站)的首页显示的是完整的文章 – 而文章比较长的时候这无疑会带来诸多不遍。 那怎么样才能只显示个摘要呢？ 方法说白了，其实很简单 – 只要加入一个&amp;lt;!-- more --&amp;gt;这样的占位符在文章正文里面即可： 注意：这个占位符貌似只能另起一行，不能放在行内。">
+<meta name="twitter:description" content="如何在静态博客hexo中只显示摘要信息 在文章中使用&amp;lt; !--more--&amp;gt; 手动进行截断 这种方法可以根据文章的内容，自己在合适的位置添加 &amp;lt; !--more--&amp;gt; 标签，使用灵活，也是Hexo推荐的方法。   在文章中的front-matter中添加description，并提供文章摘录 这种方式只会在首页列表中显示文章的摘要内容，进入文章详情后不会再显示。   自动形">
 
 
 
@@ -158,7 +158,7 @@
 
   <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
-
+    <a href="https://github.com/burnszp/burnszp.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
@@ -371,9 +371,20 @@
       
 
       
-        <h1 id="如何在静态博客hexo中只显示摘要信息"><a href="#如何在静态博客hexo中只显示摘要信息" class="headerlink" title="如何在静态博客hexo中只显示摘要信息"></a><a href="https://www.cnblogs.com/pcy0/p/how-to-show-less-in-home-page-of-hexo.html" target="_blank" rel="noopener">如何在静态博客hexo中只显示摘要信息</a></h1><p>默认情况下<code>hexo</code>博客(如本站)的首页显示的是完整的文章 – 而文章比较长的时候这无疑会带来诸多不遍。 那怎么样才能只显示个摘要呢？</p>
-<p>方法说白了，其实很简单 – 只要加入一个<code>&lt;!-- more --&gt;</code>这样的占位符在文章正文里面即可：</p>
-<h3 id="注意：这个占位符貌似只能另起一行，不能放在行内。"><a href="#注意：这个占位符貌似只能另起一行，不能放在行内。" class="headerlink" title="注意：这个占位符貌似只能另起一行，不能放在行内。"></a>注意：这个占位符貌似只能另起一行，不能放在行内。</h3>
+        <h1 id="如何在静态博客hexo中只显示摘要信息"><a href="#如何在静态博客hexo中只显示摘要信息" class="headerlink" title="如何在静态博客hexo中只显示摘要信息"></a><a href="https://www.cnblogs.com/pcy0/p/how-to-show-less-in-home-page-of-hexo.html" target="_blank" rel="noopener">如何在静态博客hexo中只显示摘要信息</a></h1><ol>
+<li>在文章中使用<code>&lt; !--more--&gt;</code> 手动进行截断<br> 这种方法可以根据文章的内容，自己在合适的位置添加 <code>&lt; !--more--&gt;</code> 标签，使用灵活，也是Hexo推荐的方法。</li>
+</ol>
+<ol start="2">
+<li>在文章中的<code>front-matter</code>中添加description，并提供文章摘录<br> 这种方式只会在首页列表中显示文章的摘要内容，进入文章详情后不会再显示。</li>
+</ol>
+<ol start="3">
+<li>自动形成摘要，在<strong>主题配置文件</strong>中添加<br> 默认截取的长度为 150 字符，可以根据需要自行设定</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">auto_excerpt:</span><br><span class="line">  enable: true</span><br><span class="line">  length: 150</span><br></pre></td></tr></table></figure>
+<p><strong>建议使用 &lt; !– more –&gt;（即第一种方式），除了可以精确控制需要显示的摘录内容以外， 这种方式也可以让 Hexo 中的插件更好的识别</strong></p>
+<p>参考：</p>
+<p><a href="https://www.jianshu.com/p/78c218f9d1e7" target="_blank" rel="noopener">https://www.jianshu.com/p/78c218f9d1e7</a></p>
+
       
     </div>
     
@@ -422,6 +433,9 @@
     
 
     
+ 
+    
+
 
     <footer class="post-footer">
       
@@ -571,7 +585,7 @@ var jiathis_config={
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -688,7 +702,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#如何在静态博客hexo中只显示摘要信息"><span class="nav-number">1.</span> <span class="nav-text">如何在静态博客hexo中只显示摘要信息</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注意：这个占位符貌似只能另起一行，不能放在行内。"><span class="nav-number">1.0.1.</span> <span class="nav-text">注意：这个占位符貌似只能另起一行，不能放在行内。</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#如何在静态博客hexo中只显示摘要信息"><span class="nav-number">1.</span> <span class="nav-text">如何在静态博客hexo中只显示摘要信息</span></a></li></ol></div>
             
 
           </div>
@@ -708,7 +722,8 @@ var jiathis_config={
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2015 &mdash; <span itemprop="copyrightYear">2018</span>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; 2015 &mdash; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -727,7 +742,6 @@ var jiathis_config={
 
 
   <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
-
 
 
 
