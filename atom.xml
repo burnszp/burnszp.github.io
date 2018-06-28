@@ -5,9 +5,9 @@
   <subtitle>独阅乐不如众阅乐</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2018-06-27T09:54:00.989Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://zhongyuele.top/"/>
+  <updated>2018-06-28T03:09:10.786Z</updated>
+  <id>http://zhongyuele.top/</id>
   
   <author>
     <name>爱的太息</name>
@@ -17,13 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo学习网址摘录</title>
-    <link href="http://yoursite.com/2018/06/27/hexo%E5%AD%A6%E4%B9%A0%E7%BD%91%E5%9D%80%E6%91%98%E5%BD%95/"/>
-    <id>http://yoursite.com/2018/06/27/hexo学习网址摘录/</id>
-    <published>2018-06-27T09:53:14.000Z</published>
-    <updated>2018-06-27T09:54:00.989Z</updated>
+    <title>将本地文件用git推送到github的仓库中</title>
+    <link href="http://zhongyuele.top/2018/06/28/%E5%B0%86%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E7%94%A8git%E6%8E%A8%E9%80%81%E5%88%B0github%E7%9A%84%E4%BB%93%E5%BA%93%E4%B8%AD/"/>
+    <id>http://zhongyuele.top/2018/06/28/将本地文件用git推送到github的仓库中/</id>
+    <published>2018-06-28T02:46:31.000Z</published>
+    <updated>2018-06-28T03:09:10.786Z</updated>
     
-    <content type="html"><![CDATA[<p>1、 hexo之next主题个性化配置详细教程 </p><p><a href="https://blog.csdn.net/w_ngzeqi/article/details/73863543" target="_blank" rel="noopener">https://blog.csdn.net/w_ngzeqi/article/details/73863543</a></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="1-先在github上创建一个项目：例如-vue-demo"><a href="#1-先在github上创建一个项目：例如-vue-demo" class="headerlink" title="1. 先在github上创建一个项目：例如 vue-demo"></a>1. 先在github上创建一个项目：例如 vue-demo</h4><h4 id="2-在本地vue-demo-项目中使用-git-init-把其变成git可以管理的仓库"><a href="#2-在本地vue-demo-项目中使用-git-init-把其变成git可以管理的仓库" class="headerlink" title="2. 在本地vue-demo 项目中使用 git init 把其变成git可以管理的仓库"></a>2. 在本地vue-demo 项目中使用 git init 把其变成git可以管理的仓库</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init1</span><br></pre></td></tr></table></figure><a id="more"></a><h4 id="3-若要忽略本地的文件或文件夹不被提交到github-，则需要在项目根目录下创建-gitignore-文件"><a href="#3-若要忽略本地的文件或文件夹不被提交到github-，则需要在项目根目录下创建-gitignore-文件" class="headerlink" title="3. 若要忽略本地的文件或文件夹不被提交到github ，则需要在项目根目录下创建 .gitignore 文件"></a>3. 若要忽略本地的文件或文件夹不被提交到github ，则需要在项目根目录下创建 .gitignore 文件</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">touch .gitignore</span><br><span class="line">12</span><br></pre></td></tr></table></figure><h4 id="4-打开文件，编辑内容，例如："><a href="#4-打开文件，编辑内容，例如：" class="headerlink" title="4. 打开文件，编辑内容，例如："></a>4. 打开文件，编辑内容，例如：</h4><p><code>node_modules/ update.txt</code></p><h6 id="则可以忽略目录下node-modules-文件夹及updata-txt-文件"><a href="#则可以忽略目录下node-modules-文件夹及updata-txt-文件" class="headerlink" title="则可以忽略目录下node_modules 文件夹及updata.txt 文件."></a>则可以忽略目录下node_modules 文件夹及updata.txt 文件.</h6><p><a href="https://github.com/github/gitignore" target="_blank" rel="noopener">配置文件可以在github在线浏览</a></p><h4 id="5-添加文件夹下所有文件到暂存区-git-add"><a href="#5-添加文件夹下所有文件到暂存区-git-add" class="headerlink" title="5. 添加文件夹下所有文件到暂存区 git add ."></a>5. 添加文件夹下所有文件到暂存区 git add .</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .1</span><br></pre></td></tr></table></figure><h4 id="6-把文件提交到仓库-git-commit-m-“”"><a href="#6-把文件提交到仓库-git-commit-m-“”" class="headerlink" title="6. 把文件提交到仓库 git-commit -m “”"></a>6. 把文件提交到仓库 git-commit -m “”</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &apos;decriptions&apos;1</span><br></pre></td></tr></table></figure><h4 id="5-关联远程仓库-（第一次使用需要添加github公钥）"><a href="#5-关联远程仓库-（第一次使用需要添加github公钥）" class="headerlink" title="5. 关联远程仓库 （第一次使用需要添加github公钥）"></a>5. 关联远程仓库 （第一次使用需要添加github公钥）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@github.com:***/vue2.1-sell.git</span><br><span class="line">12</span><br></pre></td></tr></table></figure><h6 id="或者"><a href="#或者" class="headerlink" title="或者"></a>或者</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/***/vue2.1-sell.git</span><br><span class="line">12</span><br></pre></td></tr></table></figure><h4 id="6-获取远程库与本地同步（远程仓库不为空需要这一步）"><a href="#6-获取远程库与本地同步（远程仓库不为空需要这一步）" class="headerlink" title="6. 获取远程库与本地同步（远程仓库不为空需要这一步）"></a>6. 获取远程库与本地同步（远程仓库不为空需要这一步）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull --rebase origin master1</span><br></pre></td></tr></table></figure><h4 id="7-把本地内容推送到远程库-使用-git-push"><a href="#7-把本地内容推送到远程库-使用-git-push" class="headerlink" title="7. 把本地内容推送到远程库 使用 git-push"></a>7. 把本地内容推送到远程库 使用 git-push</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master1</span><br></pre></td></tr></table></figure><h2 id="以上内容就可以将本地文件推送到github上，并且可以自己设定不需要上传哪些文件"><a href="#以上内容就可以将本地文件推送到github上，并且可以自己设定不需要上传哪些文件" class="headerlink" title="以上内容就可以将本地文件推送到github上，并且可以自己设定不需要上传哪些文件"></a>以上内容就可以将本地文件推送到github上，并且可以自己设定不需要上传哪些文件</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1-先在github上创建一个项目：例如-vue-demo&quot;&gt;&lt;a href=&quot;#1-先在github上创建一个项目：例如-vue-demo&quot; class=&quot;headerlink&quot; title=&quot;1. 先在github上创建一个项目：例如 vue-demo&quot;&gt;&lt;/a&gt;1. 先在github上创建一个项目：例如 vue-demo&lt;/h4&gt;&lt;h4 id=&quot;2-在本地vue-demo-项目中使用-git-init-把其变成git可以管理的仓库&quot;&gt;&lt;a href=&quot;#2-在本地vue-demo-项目中使用-git-init-把其变成git可以管理的仓库&quot; class=&quot;headerlink&quot; title=&quot;2. 在本地vue-demo 项目中使用 git init 把其变成git可以管理的仓库&quot;&gt;&lt;/a&gt;2. 在本地vue-demo 项目中使用 git init 把其变成git可以管理的仓库&lt;/h4&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git init1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="git" scheme="http://zhongyuele.top/tags/git/"/>
+    
+      <category term="github" scheme="http://zhongyuele.top/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo学习网址摘录</title>
+    <link href="http://zhongyuele.top/2018/06/27/hexo%E5%AD%A6%E4%B9%A0%E7%BD%91%E5%9D%80%E6%91%98%E5%BD%95/"/>
+    <id>http://zhongyuele.top/2018/06/27/hexo学习网址摘录/</id>
+    <published>2018-06-27T09:53:14.000Z</published>
+    <updated>2018-06-28T02:49:19.571Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、 hexo之next主题个性化配置详细教程 </p><p><a href="https://blog.csdn.net/w_ngzeqi/article/details/73863543" target="_blank" rel="noopener">https://blog.csdn.net/w_ngzeqi/article/details/73863543</a></p><p>2、可能是最全的使用HEXO搭建个人博客教程</p><p><a href="https://oliverqueen.cn/2018/01/25/%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E5%85%A8%E7%9A%84%E4%BD%BF%E7%94%A8HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">https://oliverqueen.cn/2018/01/25/%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%80%E5%85%A8%E7%9A%84%E4%BD%BF%E7%94%A8HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</a></p>]]></content>
     
     <summary type="html">
     
@@ -36,12 +58,14 @@
     </summary>
     
     
+      <category term="hexo" scheme="http://zhongyuele.top/tags/hexo/"/>
+    
   </entry>
   
   <entry>
     <title>知了说</title>
-    <link href="http://yoursite.com/2018/06/27/%E7%9F%A5%E4%BA%86%E8%AF%B4/"/>
-    <id>http://yoursite.com/2018/06/27/知了说/</id>
+    <link href="http://zhongyuele.top/2018/06/27/%E7%9F%A5%E4%BA%86%E8%AF%B4/"/>
+    <id>http://zhongyuele.top/2018/06/27/知了说/</id>
     <published>2018-06-27T04:39:58.000Z</published>
     <updated>2018-06-27T04:48:06.479Z</updated>
     
@@ -67,8 +91,8 @@
   
   <entry>
     <title>“hexo 设置摘要信息</title>
-    <link href="http://yoursite.com/2018/06/27/hexo-%E8%AE%BE%E7%BD%AE%E6%91%98%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
-    <id>http://yoursite.com/2018/06/27/hexo-设置摘要信息/</id>
+    <link href="http://zhongyuele.top/2018/06/27/hexo-%E8%AE%BE%E7%BD%AE%E6%91%98%E8%A6%81%E4%BF%A1%E6%81%AF/"/>
+    <id>http://zhongyuele.top/2018/06/27/hexo-设置摘要信息/</id>
     <published>2018-06-27T04:04:36.000Z</published>
     <updated>2018-06-27T09:36:15.445Z</updated>
     
@@ -88,8 +112,8 @@
   
   <entry>
     <title>Hexo设置网站的图标</title>
-    <link href="http://yoursite.com/2018/06/27/Hexo%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%AB%99%E7%9A%84%E5%9B%BE%E6%A0%87/"/>
-    <id>http://yoursite.com/2018/06/27/Hexo设置网站的图标/</id>
+    <link href="http://zhongyuele.top/2018/06/27/Hexo%E8%AE%BE%E7%BD%AE%E7%BD%91%E7%AB%99%E7%9A%84%E5%9B%BE%E6%A0%87/"/>
+    <id>http://zhongyuele.top/2018/06/27/Hexo设置网站的图标/</id>
     <published>2018-06-27T03:51:49.000Z</published>
     <updated>2018-06-27T04:01:13.885Z</updated>
     
@@ -109,12 +133,12 @@
   
   <entry>
     <title>中国农民丰收节</title>
-    <link href="http://yoursite.com/2018/06/22/%E4%B8%AD%E5%9B%BD%E5%86%9C%E6%B0%91%E4%B8%B0%E6%94%B6%E8%8A%82/"/>
-    <id>http://yoursite.com/2018/06/22/中国农民丰收节/</id>
+    <link href="http://zhongyuele.top/2018/06/22/%E4%B8%AD%E5%9B%BD%E5%86%9C%E6%B0%91%E4%B8%B0%E6%94%B6%E8%8A%82/"/>
+    <id>http://zhongyuele.top/2018/06/22/中国农民丰收节/</id>
     <published>2018-06-22T08:20:52.000Z</published>
-    <updated>2018-06-27T04:02:25.593Z</updated>
+    <updated>2018-06-28T03:11:52.097Z</updated>
     
-    <content type="html"><![CDATA[<p>转自：<a href="http://opinion.people.com.cn/n1/2018/0622/c1003-30074714.html#liuyan" target="_blank" rel="noopener">http://opinion.people.com.cn/n1/2018/0622/c1003-30074714.html#liuyan</a></p><p>经党中央批准、国务院批复，自2018年起，将每年农历秋分设立为“中国农民丰收节”。这是一个全国性的节日，是属于亿万中国农民的节日，是庆祝丰收、享受丰收的节日。</p><a id="more"></a> <p>从民俗上看，我国很多少数民族都有庆祝丰收的传统节日，如畲族的丰收节、藏族的望果节、彝族的火把节，但在国家层面上缺少一个各民族共同参与、共庆丰收的节日。去年全国两会期间，45名人大代表提出设立丰收节的建议，便得到了社会各界的广泛支持。“农，天下之大本。”随着改革开放深入和经济结构不断优化，尽管农业占国内生产总值比重持续下降，但农业在国民经济中的基础地位并没有改变，党中央也坚持把解决“三农”问题作为全党工作的重中之重。农村要发展，根本要依靠亿万农民。如今，在脱贫攻坚的关键时期、实施乡村振兴战略的开局之年，中央决定设立“中国农民丰收节”，势必极大调动起广大农民的积极性、主动性、创造性，汇聚起实现乡村振兴、加快推进农业农村现代化的磅礴力量。</p><p>我国是一个农业大国，中华农耕文化历史悠久、源远流长。但不容忽视的是，在工业化、城镇化加快推进的过程中，人们对传统农耕文化的记忆正在淡化，对农业的了解正在弱化，对农村的认识正在虚化，对农民的感情正在边缘化。“重农固本，是安民之基。”习近平总书记也一再强调：“中国要强，农业必须强；中国要美，农村必须美；中国要富，农民必须富。”设立“中国农民丰收节”，并赋予新的时代内涵，不仅有助于宣传展示农耕文化的悠久厚重，推动传统文化和现代文明有机融合；还可以让人们以节为媒，释放情感、传承文化、寻找归属，重拾对那座山、那片水、那块田、那些人的情感寄托，享受农耕文化的精神熏陶。</p><p>俗话说“春生夏长秋收冬藏”。对于农民来说，秋天是成熟结果的季节，是享受丰收喜悦的季节，重要意义不言而喻。从节气上看，秋分作为二十四节气之一，昼夜平分，秋高气爽，既是秋收、秋耕、秋种的重要时节，也是稻谷飘香、蟹肥菊黄、踏秋赏景的大好时节。春种秋收、春华秋实，秋分时节硕果累累，也最能体现丰收。即便说全国各地收获时节有所不同，但多数地方都在秋季，秋收作物也是大头。所以说，把每年秋分设为“中国农民丰收节”乃最佳选择，不仅体现了鲜明的农事特点，更契合了丰收节的主题。同时，也便于充分展示农业的丰收成果，让广大农民真正放轻松、歇歇脚，参与和享受属于自己的节日。</p><p>“中国农民丰收节”是亿万中国农民的节日，主角是农民。这一节日设立的初衷必须谨记。只有让农民广泛参与进来，让农民享受到节日快乐，“中国农民丰收节”才实至名归。而要实现这一点，就要因地制宜，从实际出发，结合各地民俗文化、农时农事，组织开展好农民喜闻乐见、丰富多彩的活动，切忌搞整齐划一、千篇一律的活动，更不能像某地修订教材一样，只能叫“姥姥”、不能称“外婆”。同时，一定要考虑到农村的乡土风情，不要用城市的视角组织活动、庆祝节日。既要突出节日的仪式感，又要注重务实，避免铺张浪费。总而言之一句话，农民是丰收节的主体，农民广泛参与是关键，农民的节日农民乐。</p><p>现在距离秋分还有三个月时间，首个“中国农民丰收节”让人翘首以待。希望借助节日这一重要文化符号，在展示农业丰收景象的同时，让全社会更加关注“三农”问题，进一步增进对农民的深厚感情，为农民带来更多福祉。毕竟，“中国农民丰收节”是为农民而设。</p>]]></content>
+    <content type="html"><![CDATA[<p>转自：<a href="http://opinion.people.com.cn/n1/2018/0622/c1003-30074714.html#liuyan" target="_blank" rel="noopener">http://opinion.people.com.cn/n1/2018/0622/c1003-30074714.html#liuyan</a></p><p>经党中央批准、国务院批复，自2018年起，将每年农历秋分设立为“中国农民丰收节”。这是一个全国性的节日，是属于亿万中国农民的节日，是庆祝丰收、享受丰收的节日。</p><a id="more"></a> <p>从民俗上看，我国很多少数民族都有庆祝丰收的传统节日，如畲族的丰收节、藏族的望果节、彝族的火把节，但在国家层面上缺少一个各民族共同参与、共庆丰收的节日。去年全国两会期间，45名人大代表提出设立丰收节的建议，便得到了社会各界的广泛支持。“农，天下之大本。”随着改革开放深入和经济结构不断优化，尽管农业占国内生产总值比重持续下降，但农业在国民经济中的基础地位并没有改变，党中央也坚持把解决“三农”问题作为全党工作的重中之重。农村要发展，根本要依靠亿万农民。如今，在脱贫攻坚的关键时期、实施乡村振兴战略的开局之年，中央决定设立“中国农民丰收节”，势必极大调动起广大农民的积极性、主动性、创造性，汇聚起实现乡村振兴、加快推进农业农村现代化的磅礴力量。</p><p>我国是一个农业大国，中华农耕文化历史悠久、源远流长。但不容忽视的是，在工业化、城镇化加快推进的过程中，人们对传统农耕文化的记忆正在淡化，对农业的了解正在弱化，对农村的认识正在虚化，对农民的感情正在边缘化。“重农固本，是安民之基。”习近平总书记也一再强调：“中国要强，农业必须强；中国要美，农村必须美；中国要富，农民必须富。”设立“中国农民丰收节”，并赋予新的时代内涵，不仅有助于宣传展示农耕文化的悠久厚重，推动传统文化和现代文明有机融合；还可以让人们以节为媒，释放情感、传承文化、寻找归属，重拾对那座山、那片水、那块田、那些人的情感寄托，享受农耕文化的精神熏陶。</p><p>俗话说“春生夏长秋收冬藏”。对于农民来说，秋天是成熟结果的季节，是享受丰收喜悦的季节，重要意义不言而喻。从节气上看，秋分作为二十四节气之一，昼夜平分，秋高气爽，既是秋收、秋耕、秋种的重要时节，也是稻谷飘香、蟹肥菊黄、踏秋赏景的大好时节。春种秋收、春华秋实，秋分时节硕果累累，也最能体现丰收。即便说全国各地收获时节有所不同，但多数地方都在秋季，秋收作物也是大头。所以说，把每年秋分设为“中国农民丰收节”乃最佳选择，不仅体现了鲜明的农事特点，更契合了丰收节的主题。同时，也便于充分展示农业的丰收成果，让广大农民真正放轻松、歇歇脚，参与和享受属于自己的节日。</p><p>“中国农民丰收节”是亿万中国农民的节日，主角是农民。这一节日设立的初衷必须谨记。只有让农民广泛参与进来，让农民享受到节日快乐，“中国农民丰收节”才实至名归。而要实现这一点，就要因地制宜，从实际出发，结合各地民俗文化、农时农事，组织开展好农民喜闻乐见、丰富多彩的活动，切忌搞整齐划一、千篇一律的活动，更不能像某地修订教材一样，只能叫“姥姥”、不能称“外婆”。同时，一定要考虑到农村的乡土风情，不要用城市的视角组织活动、庆祝节日。既要突出节日的仪式感，又要注重务实，避免铺张浪费。总而言之一句话，农民是丰收节的主体，农民广泛参与是关键，农民的节日农民乐。</p><p>现在距离秋分还有三个月时间，首个“中国农民丰收节”让人翘首以待。希望借助节日这一重要文化符号，在展示农业丰收景象的同时，让全社会更加关注“三农”问题，进一步增进对农民的深厚感情，为农民带来更多福祉。毕竟，“中国农民丰收节”是为农民而设。</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=539941039&auto=1&height=66"></iframe>]]></content>
     
     <summary type="html">
     
@@ -127,11 +151,11 @@
   </entry>
   
   <entry>
-    <title>分类</title>
-    <link href="http://yoursite.com/2018/06/21/%E5%88%86%E7%B1%BB/"/>
-    <id>http://yoursite.com/2018/06/21/分类/</id>
+    <title>分类测试文章</title>
+    <link href="http://zhongyuele.top/2018/06/21/%E5%88%86%E7%B1%BB/"/>
+    <id>http://zhongyuele.top/2018/06/21/分类/</id>
     <published>2018-06-21T08:48:26.000Z</published>
-    <updated>2018-06-21T08:49:25.702Z</updated>
+    <updated>2018-06-28T02:32:10.217Z</updated>
     
     <content type="html"><![CDATA[<p>分类测试页面</p>]]></content>
     
@@ -145,33 +169,41 @@
     
     </summary>
     
-      <category term="Testing" scheme="http://yoursite.com/categories/Testing/"/>
+      <category term="分类测试一" scheme="http://zhongyuele.top/categories/%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95%E4%B8%80/"/>
     
     
   </entry>
   
   <entry>
-    <title>标签</title>
-    <link href="http://yoursite.com/2018/06/21/%E6%A0%87%E7%AD%BE/"/>
-    <id>http://yoursite.com/2018/06/21/标签/</id>
+    <title>测试标签文章</title>
+    <link href="http://zhongyuele.top/2018/06/21/%E6%A0%87%E7%AD%BE/"/>
+    <id>http://zhongyuele.top/2018/06/21/标签/</id>
     <published>2018-06-21T08:34:20.000Z</published>
-    <updated>2018-06-21T08:41:44.404Z</updated>
+    <updated>2018-06-28T02:12:31.540Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试标签文章，呵呵🙂</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;测试标签文章，呵呵🙂&lt;/p&gt;
+
+      
     
     </summary>
     
     
-      <category term="Testing" scheme="http://yoursite.com/tags/Testing/"/>
+      <category term="测试标签一" scheme="http://zhongyuele.top/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE%E4%B8%80/"/>
     
-      <category term="Another Tag" scheme="http://yoursite.com/tags/Another-Tag/"/>
+      <category term="测试标签二" scheme="http://zhongyuele.top/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE%E4%BA%8C/"/>
     
   </entry>
   
   <entry>
     <title>Hello Hexo</title>
-    <link href="http://yoursite.com/2018/06/20/hello-hexo/"/>
-    <id>http://yoursite.com/2018/06/20/hello-hexo/</id>
+    <link href="http://zhongyuele.top/2018/06/20/hello-hexo/"/>
+    <id>http://zhongyuele.top/2018/06/20/hello-hexo/</id>
     <published>2018-06-20T09:52:17.509Z</published>
     <updated>2018-06-21T08:13:11.185Z</updated>
     
@@ -191,8 +223,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/06/20/hello-world/"/>
-    <id>http://yoursite.com/2018/06/20/hello-world/</id>
+    <link href="http://zhongyuele.top/2018/06/20/hello-world/"/>
+    <id>http://zhongyuele.top/2018/06/20/hello-world/</id>
     <published>2018-06-20T07:01:14.227Z</published>
     <updated>2018-06-21T08:13:08.291Z</updated>
     
